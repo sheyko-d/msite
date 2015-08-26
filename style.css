@@ -1,0 +1,62 @@
+/************Reset**************/
+html, body, div, h1, h2, h3, h4, h5, h6, section { 
+	margin: 0; 
+	padding: 0;
+	border: 0;
+}
+h1 {
+	line-height: 1;
+	padding-bottom: 0.5em;
+}
+legend {
+	display: none;
+}
+fieldset {	
+	border: 0;
+}
+
+/************Global**************/
+body {
+	font: 100%/2.3 "HelveticaNeue", sans-serif; 
+	color: #000;
+	background: #fff;
+	text-align: center;
+	padding: 1em;
+}
+.search-field {
+	padding: 0.2em;
+}
+
+/************Classes**************/
+.logo {
+	float: left;
+}
+
+.search-section {
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.result-error {
+	color:#F44336;
+}
+
+.result-success {
+	color:#009688;
+}
+
+/************Ids**************/
+#results-section {
+	text-align: left;
+}
+
+/************Structure**************/
+header[role="banner"] {
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+header[role="banner"] a {
+	text-decoration: none;
+}
